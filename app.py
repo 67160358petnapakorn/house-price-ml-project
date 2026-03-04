@@ -29,7 +29,7 @@ st.markdown("""
 # -----------------------
 # Load Model (ของคุณ)
 # -----------------------
-model = pickle.load(open("model.pkl", "rb"))
+model = joblib.load("model.pkl")
 
 # -----------------------
 # Title
